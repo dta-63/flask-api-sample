@@ -1,6 +1,6 @@
-# Service example
+# Flask API sample
 
-Example of a flask service using Zalando connexion
+Example of a flask API service using Zalando connexion
 
 ## Requirements
 
@@ -11,9 +11,8 @@ Example of a flask service using Zalando connexion
 
 ## Features
 
-- [x] Flask architecture (modular)
-- [x] Logger
 - [x] Service documentation (Open api)
+- [x] Logger
 - [x] Multiple environments with configuration file
 - [x] Docker
 - [ ] Gitlab CI
@@ -26,12 +25,12 @@ Example of a flask service using Zalando connexion
 - [ ] Cache
 - [ ] Kafka connector
 
-## Launch
+## Start
 
 - Run `./make.sh` to build the virtual env
 - Run `python main.py` or use a launcher in VScode for example
-- Access to http://127.0.0.1/
-- Access to http://127.0.0.1/ui to see open api documentation
+- Access to http://127.0.0.1:8080/
+- Access to http://127.0.0.1:8080/ui to see open api documentation
 
 ## Helpfull links
 
